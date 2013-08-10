@@ -1,0 +1,22 @@
+{
+  "name": "gh-no-pulls-in-issuelist-userscript",
+  "version": "0.0.1",
+  "description": "A userscript that adds build status to the pulls list on github",
+  "main": "gh-no-pulls-in-issuelist.user.js",
+  "scripts": {
+    "test": "node_modules/.bin/jshint gh-no-pulls-in-issuelist.user.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbowes/gh-no-pulls-in-issuelist.user.git"
+  },
+  "author": "James Bowes",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jbowes/gh-no-pulls-in-issuelist-userscript/issues"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.4"
+  }
+}
